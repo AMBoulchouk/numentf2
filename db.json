@@ -5,6 +5,7 @@
         "name": "Colombiano Intenso",
         "price": 200.00,
         "weight": 250,
+        "img_url":"",
         "stock": 45
       },
       {
@@ -12,6 +13,7 @@
         "name": "Colombiano Intenso",
         "price": 350.00,
         "weight": 500,
+        "img_url":"",
         "stock": 45
       },
       {
@@ -19,6 +21,7 @@
         "name": "Colombiano Intenso",
         "price": 600.00,
         "weight": 1000,
+        "img_url":"",
         "stock": 45
       },
       {
@@ -26,6 +29,7 @@
         "name": "Colombiano Torrado Clásico",
         "price": 200.00,
         "weight": 250,
+        "img_url":"",
         "stock": 45
       },
       {
@@ -33,6 +37,7 @@
         "name": "Colombiano Torrado Clásico",
         "price": 350.00,
         "weight": 500,
+        "img_url":"",
         "stock": 45
       },
       {
@@ -40,6 +45,7 @@
         "name": "Colombiano Torrado Clásico",
         "price": 600.00,
         "weight": 1000,
+        "img_url":"",
         "stock": 45
       },
       {
@@ -47,6 +53,7 @@
         "name": "Colombiano Suave",
         "price": 200.00,
         "weight": 250,
+        "img_url":"",
         "stock": 45
       },
       {
@@ -54,6 +61,7 @@
         "name": "Colombiano Suave",
         "price": 350.00,
         "weight": 500,
+        "img_url":"",
         "stock": 45
       },
       {
@@ -61,6 +69,7 @@
         "name": "Colombiano Suave",
         "price": 600.00,
         "weight": 1000,
+        "img_url":"",
         "stock": 45
       },
       {
@@ -68,6 +77,7 @@
         "name": "Brasilero Intenso",
         "price": 200.00,
         "weight": 250,
+        "img_url":"",
         "stock": 45
       },
       {
@@ -75,6 +85,7 @@
         "name": "Brasilero Intenso",
         "price": 350.00,
         "weight": 500,
+        "img_url":"",
         "stock": 45
       },
       {
@@ -82,6 +93,7 @@
         "name": "Brasilero Intenso",
         "price": 600.00,
         "weight": 1000,
+        "img_url":"",
         "stock": 45
       },
       {
@@ -89,6 +101,7 @@
         "name": "Brasilero Torrado Clásico",
         "price": 200.00,
         "weight": 250,
+        "img_url":"",
         "stock": 45
       },
       {
@@ -96,6 +109,7 @@
         "name": "Brasilero Torrado Clásico",
         "price": 350.00,
         "weight": 500,
+        "img_url":"",
         "stock": 45
       },
       {
@@ -103,6 +117,7 @@
         "name": "Brasilero Torrado Clásico",
         "price": 600.00,
         "weight": 1000,
+        "img_url":"",
         "stock": 45
       },
       {
@@ -110,6 +125,7 @@
         "name": "Brasilero Suave",
         "price": 200.00,
         "weight": 250,
+        "img_url":"",
         "stock": 45
       },
       {
@@ -117,6 +133,7 @@
         "name": "Brasilero Suave",
         "price": 350.00,
         "weight": 500,
+        "img_url":"",
         "stock": 45
       },
       {
@@ -124,6 +141,7 @@
         "name": "Brasilero Suave",
         "price": 600.00,
         "weight": 1000,
+        "img_url":"",
         "stock": 45
       },
       {
@@ -131,6 +149,7 @@
         "name": "Edición Especial Peru",
         "price": 850.00,
         "weight": 1000,
+        "img_url":"",
         "stock": 45
       },
       {
@@ -138,6 +157,7 @@
         "name": "Edición Especial Tailandia",
         "price": 900.00,
         "weight": 1000,
+        "img_url":"",
         "stock": 45
       }
     ]
