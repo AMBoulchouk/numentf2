@@ -1,0 +1,64 @@
+
+/* INFORMATION FOOTER */
+
+.information .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 3fr));
+    gap:1.5rem;
+}
+
+.information .box-container img{
+    height: 12rem;
+    border-radius: 50%;
+}
+.information .box-container h3{
+    margin: 0 2rem;
+    font-size: 1.5rem;
+    color:var(--main-color); 
+    font-weight: bolder; 
+}
+
+.information .box-container ul{
+    margin: 0 2rem;
+    font-size: 1.2rem;
+    color:var(--main-color);
+  
+}
+
+.information .box-container ul li{
+    margin:1rem 3rem;
+    font-size: 1rem;
+    color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+/* media queries  */
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+
+    section{
+        padding:2rem;
+    }
+
+}
+
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+}
