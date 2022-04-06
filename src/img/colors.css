@@ -1,0 +1,35 @@
+:root{
+    --main-color:#ddb17c;
+    --black-letter:#13131a;
+    --bg:#181515e7;
+    --creme: #f0e9e0;
+    --brown: rgb(44, 20, 6);
+}
+/* body{ background-color: var(--bg);} */
+/*body{ background: url(https://images.pexels.com/photos/894696/pexels-photo-894696.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);}*/ 
+
+h1 {
+    color: var(--main-color);
+    background-color: var(--bg);}
+
+h3 {
+    color: var(--creme);
+    background-color: var(--bg);}
+
+h3:hover{
+    color: var(--main-color);
+    transition: .6;}
+
+div{
+    background-color: var(--creme);}
+
+h2{
+    color: var(--black-letter);}
+
+a{
+    background-color: var(--main-color);
+    color: #fff;}
+
+img{
+    background-color: var(--brown);}
+
