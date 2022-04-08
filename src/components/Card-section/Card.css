@@ -35,40 +35,15 @@
     letter-spacing: .2rem;
     color: var(--brown);
     background-color: var(--creme);
-}
-
-/* SECTIONS */
-section{
-    padding:2rem 5%; /*Espacio entre secciones*/
-}
-/* SECTIONS HEADER*/
-.heading{
-    text-align: center;
-    color:var(--main-color);
-    text-transform: uppercase;
-    padding-bottom: 3.5rem;
-    font-size: 4rem;
-    font-weight: bolder;
-}
-
-.menu{
-    background:url('https://img.freepik.com/free-photo/black-wooden-background_88281-4126.jpg?w=740');
-    background-position: center;
-    border: var(--border);
   
 }
 
-.menu .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    gap:1.5rem;
-    
-}
+/*CUSTOM MENU*/
 
-.menu .box-container .box{
-    padding:5rem;
-    text-align: center;
-    
+.menu{
+    background:url('https://scontent.faep15-2.fna.fbcdn.net/v/t39.30808-6/277785616_7588020054571268_7489425763397476237_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeHfDitT54h6msDcl1SAvOSaa0r_xjfToaprSv_GN9OhqvuvcRLxOA0vnyDphDe7uVjKbGX9ioJOTITKZrfcySNZ&_nc_ohc=aNIhcdoWZp8AX_fQ4Oh&_nc_ht=scontent.faep15-2.fna&oh=00_AT8VR2Hfh2aZMu-U6xuqYiJM42_JVKMH9bt-mcNBplE3Xw&oe=624EA711');
+    background-position: center;
+    border: var(--border);
 }
 
 .menu .box-container .box img{
@@ -90,6 +65,7 @@ section{
 .menu .box-container .box .price span{
     font-size: 1.2rem;
     text-decoration:line-through;
+    color: var(--main-color);
 }
 
 .menu .box-container .box:hover > *{
@@ -112,7 +88,11 @@ section{
         padding:2rem;
     }
     
+    .box-container{
 
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    }
 
 }
 
@@ -125,3 +105,18 @@ section{
     }
 
 }
+
+/*REPLACED BY "TAILWIND"*/
+
+/*.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap:1.5rem;
+    
+}*/
+
+/*.menu .box-container .box{
+    padding:5rem;
+    text-align: center;
+    
+}*/

@@ -49,3 +49,17 @@ html::-webkit-scrollbar-thumb{
 body{
     background: var(--bg);
 }
+
+/* SECTIONS */
+section{
+    padding:2rem 5%; /*Espacio entre secciones*/
+}
+/* SECTIONS HEADER*/
+.heading{
+    text-align: center;
+    color:var(--main-color);
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+    font-weight: bolder;
+}
