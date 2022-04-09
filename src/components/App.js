@@ -7,23 +7,6 @@ function App() {
     <div className="App">
       <Banner/>
       <Header/>
-      <Relleno/>
-      <Relleno/>
-      <Relleno/>
-      <Relleno/>
-      <Relleno/>
-      <Relleno/>
-      <Relleno/>
-      <Relleno/>
-      <Relleno/>
-      <Relleno/>
-      <Relleno/>
-      <Relleno/>
-      <Relleno/>
-      <Relleno/>
-      <Relleno/>
-      <Relleno/>
-      <Relleno/>
     </div>
   );
 }
