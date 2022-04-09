@@ -1,0 +1,7 @@
+.banner{
+    position: sticky;
+    top: 0;
+    padding: 0px 0% ;
+    z-index: 1000;
+    font-size: 1.3rem;
+}
