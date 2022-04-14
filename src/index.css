@@ -1,3 +1,148 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+/* VARIABLES DE COLORES - en caso de ser necesario agregar mas aqui*/
+:root{
+    --main-color:#ddb17c;
+    --black-letter:#13131a;
+    --bg:#181515e7;
+    --creme: #f0e9e0;
+    --brown: rgb(44, 20, 6);
+    --border:.1rem solid rgba(255,255,255,.3);
+}
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none; 
+    transition: .2s linear;  
+    list-style: none;
+}
+/* ----------------------------------- */
+
+/*CUSTOM BTN*/
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.9rem 1.5rem;
+    font-size: 1.7rem;
+    color:#fff;
+    background: var(--main-color);
+    cursor: pointer;
+    border-radius: 1.25rem;
+}
+
+.btn:hover{  
+    letter-spacing: .2rem;
+}
+/* ----------------------------------- */
+
+/* CUSTOM SCROLL */
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(--creme);
+    border-radius: 5rem;
+}
+
+/* ----------------------------------- */
+
+/* BODY */
+body{
+    background: var(--bg);
+}
+/* ----------------------------------- */
+
+/* SECTIONS */
+section{
+    padding:2rem 5%; /*Espacio entre secciones*/
+}
+/* ----------------------------------- */
+
+/* media queries  */
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .header{
+        padding:1.5rem 2rem;
+    }
+
+    section{
+        padding:2rem;
+    }
+
+}
+
+@media (max-width:768px){
+
+
+
+    .header .navbar{
+        position: absolute;
+        top:100%; right: -100%;
+        background: #fff;
+        width: 30rem;
+        height: calc(100vh - 9.5rem);
+    }
+
+    .header .navbar.active{
+        right:0;
+    }
+
+    .header .navbar a{
+        color:var(--black);
+        display: block;
+        margin:1.5rem;
+        padding:.5rem;
+        font-size: 2rem;
+    }
+
+
+    .home{
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home .content h3{
+        font-size: 4.5rem;
+    }
+
+    .home .content p{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+}
+/* ----------------------------------- */
