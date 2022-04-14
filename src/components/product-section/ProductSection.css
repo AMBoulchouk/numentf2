@@ -257,6 +257,10 @@ header.sticky .logo{
 
 /* SECTION PRODUCTS */
 /*Se considera este espacio para un carrusel, las imagenes son solo relleno por el momento*/
+#product {
+    margin-top: 5rem;
+}
+
 .products .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
