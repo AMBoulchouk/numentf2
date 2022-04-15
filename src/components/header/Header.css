@@ -41,9 +41,9 @@
 .header .logo span{
     color: var(--main-color);
 }
-.header .navbar{
+/*.header .navbar{
     display: flex;
-}
+} */
 .header .navbar a:hover{
     color:var(--main-color);
     border-bottom: .5rem solid var(--main-color);

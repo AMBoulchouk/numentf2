@@ -146,8 +146,19 @@ section{
 
 @media (max-width:450px){
 
+    .header .navbar {
+        display: none;
+    }
     html{
         font-size: 50%;
+    }
+
+}
+
+@media (min-width:451px){
+
+    .header .navbar{
+        display: flex;
     }
 
 }
