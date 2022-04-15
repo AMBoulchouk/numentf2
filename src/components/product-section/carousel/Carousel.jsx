@@ -6,7 +6,7 @@ import ProductList from './product/ProductList';
 
 export default function Carousel() {
   return (
-    <div className="container mx-auto">
+    <div className="container">
       <ProductList />
     </div>
   );
