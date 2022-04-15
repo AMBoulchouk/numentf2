@@ -8,6 +8,7 @@ import Information from './Information-section/Information';
 import ShoppingCart from './ShoppingCart';
 import MainSection from './main-section/MainSection';
 import Nosotros from './nosotros/Nosotros';
+import Footer from './footer/Footer';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Nosotros />
       <ProductSection/> 
       <ContactSection/> 
+      <Footer />
       <Information/>
     </div>
     </>
