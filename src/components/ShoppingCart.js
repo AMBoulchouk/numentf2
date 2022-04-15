@@ -40,7 +40,7 @@ return (
                 />)} 
         </div>
         <section className="border-2 border-orange-100 border-solid">
-        <h1 className="heading"><span className="text-white">Carrito</span> del Cafe</h1>
+        <h1 id="cart" className="heading"><span className="text-white">Carrito</span> del Cafe</h1>
         <div className="bg-white box-container">
             
             {cart.map((item, index) => <CartItem 
