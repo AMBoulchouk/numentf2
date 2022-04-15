@@ -23,29 +23,6 @@
 
 
 
-/* media queries  */
-@media (max-width:991px){
-
-    html{
-        font-size: 55%;
-    }
-
-
-    section{
-        padding:2rem;
-    }
-
-}
-
-
-@media (max-width:450px){
-
-    html{
-        font-size: 50%;
-    }
-
-}
-
 
 
 /*REPLACED BY "TAILWIND"*/
