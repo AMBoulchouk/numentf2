@@ -14,11 +14,11 @@ function App() {
     <div className="App">
       <Banner/>
       <Header/>
+      <ProductSection/> 
       <section className="menu" id="menu">
         <h1 className="heading"><span>Menu</span></h1>
           <ShoppingCart/>
       </section> 
-      <ProductSection/> 
       <ContactSection/> 
       <Information/>
     </div>
