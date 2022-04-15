@@ -55,6 +55,7 @@ header.sticky{
     background:var(--creme);
     padding: 1rem 5rem;
     box-shadow:0 .30rem 1.25rem rgba(0, 0, 0, 0.356);
+    top:0;
 }
 
 header.sticky .navbar a{
