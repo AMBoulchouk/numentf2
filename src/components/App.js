@@ -7,6 +7,7 @@ import React from 'react';
 import Information from './Information-section/Information';
 import ShoppingCart from './ShoppingCart';
 import MainSection from './main-section/MainSection';
+import Nosotros from './nosotros/Nosotros';
 
 
 function App() {
@@ -16,11 +17,12 @@ function App() {
       <Banner/>
       <Header/>
       <MainSection />
-      <ProductSection/> 
       <section className="menu" id="menu">
         <h1 className="heading"><span>Menu</span></h1>
           <ShoppingCart/>
       </section> 
+      <Nosotros />
+      <ProductSection/> 
       <ContactSection/> 
       <Information/>
     </div>
