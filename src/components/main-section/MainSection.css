@@ -1,0 +1,25 @@
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url(../../img/home4.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content-main{
+    max-width: 60rem;
+}
+
+.home .content-main h3{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color:#fff;
+}
+
+.home .content-main p{
+    font-size: 2rem;
+    line-height: 1.8;
+    padding:1rem 0;
+    color:#fff;
+}
