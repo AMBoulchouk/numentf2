@@ -25,7 +25,13 @@
     list-style: none;
 }
 /* ----------------------------------- */
-
+/*CUSTOM MENU*/
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap:1.5rem;
+  }
+/* ----------------------------------- */
 /*CUSTOM BTN*/
 .btn{
     margin-top: 1rem;
