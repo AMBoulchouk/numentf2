@@ -5,7 +5,7 @@ import Carousel from './carousel/Carousel';
 const ProductSection = () => {
   return (
     <section className="products" id="products">
-      <div className="w-screen flex justify-center">
+      <div className="flex justify-center">
         <Carousel />
        </div>
     </section>
