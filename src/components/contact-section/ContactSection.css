@@ -1,0 +1,68 @@
+.heading-contact{
+    text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+
+.heading-contact span{
+    /*Nosotros, Menu, Productos, Contacto */
+    color:var(--main-color);
+    text-transform: uppercase;
+}
+
+/* SECTION CONTACT */
+
+.contact .row{
+    display: flex;
+    background:var(--black);
+    flex-wrap: wrap;
+    gap:1rem;
+}
+
+.contact .row .map{
+    flex:1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact .row form{
+    flex:1 1 45rem;
+    padding:5rem 2rem;
+    text-align: center;
+}
+
+.contact .row form h3{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color:#fff;
+}
+.contact .row iframe{
+    border: solid 0.2rem var(--main-color);
+    width: 40%;
+    border-radius: 5%;
+    box-shadow: 0.4rem 0.68rem 0.65rem -0.12rem rgba(0, 0, 0, 0.67); 
+}
+
+.contact .row form .inputBox{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background:var(--bg);
+    border:var(--border);
+}
+
+.contact .row form .inputBox i{
+   color: var(--main-color);
+   margin-left: 1rem;
+}
+.contact .row form .inputBox input{
+    width: 100%;
+    padding:2rem;
+    font-size: 1.6rem;
+    color:#fff;
+    text-transform: none;
+    background:none;
+}

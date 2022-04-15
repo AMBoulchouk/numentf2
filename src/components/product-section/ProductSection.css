@@ -1,0 +1,26 @@
+/* SECTION PRODUCTS */
+/*Se considera este espacio para un carrusel, las imagenes son solo relleno por el momento*/
+#products {
+    margin-top: 5rem;
+}
+
+.products .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+}
+
+.products .box-container .box{
+    text-align: center;
+    border:var(--border);
+    padding: 1rem;
+}
+
+
+.products .box-container .box .image{
+    padding: 2rem 0;
+}
+
+.products .box-container .box .image img{
+    height: 15rem;
+}

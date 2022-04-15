@@ -1,164 +1,208 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "name": "Colombiano Intenso",
-        "price": 200.00,
-        "weight": 250,
-        "img_url":"",
-        "stock": 45
-      },
-      {
-        "id": 2,
-        "name": "Colombiano Intenso",
-        "price": 350.00,
-        "weight": 500,
-        "img_url":"",
-        "stock": 45
-      },
-      {
-        "id": 3,
-        "name": "Colombiano Intenso",
-        "price": 600.00,
-        "weight": 1000,
-        "img_url":"",
-        "stock": 45
-      },
-      {
-        "id": 4,
-        "name": "Colombiano Torrado Clásico",
-        "price": 200.00,
-        "weight": 250,
-        "img_url":"",
-        "stock": 45
-      },
-      {
-        "id": 5,
-        "name": "Colombiano Torrado Clásico",
-        "price": 350.00,
-        "weight": 500,
-        "img_url":"",
-        "stock": 45
-      },
-      {
-        "id": 6,
-        "name": "Colombiano Torrado Clásico",
-        "price": 600.00,
-        "weight": 1000,
-        "img_url":"",
-        "stock": 45
-      },
-      {
-        "id": 7,
-        "name": "Colombiano Suave",
-        "price": 200.00,
-        "weight": 250,
-        "img_url":"",
-        "stock": 45
-      },
-      {
-        "id": 8,
-        "name": "Colombiano Suave",
-        "price": 350.00,
-        "weight": 500,
-        "img_url":"",
-        "stock": 45
-      },
-      {
-        "id": 9,
-        "name": "Colombiano Suave",
-        "price": 600.00,
-        "weight": 1000,
-        "img_url":"",
-        "stock": 45
-      },
-      {
-        "id": 10,
-        "name": "Brasilero Intenso",
-        "price": 200.00,
-        "weight": 250,
-        "img_url":"",
-        "stock": 45
-      },
-      {
-        "id": 11,
-        "name": "Brasilero Intenso",
-        "price": 350.00,
-        "weight": 500,
-        "img_url":"",
-        "stock": 45
-      },
-      {
-        "id": 12,
-        "name": "Brasilero Intenso",
-        "price": 600.00,
-        "weight": 1000,
-        "img_url":"",
-        "stock": 45
-      },
-      {
-        "id": 13,
-        "name": "Brasilero Torrado Clásico",
-        "price": 200.00,
-        "weight": 250,
-        "img_url":"",
-        "stock": 45
-      },
-      {
-        "id": 14,
-        "name": "Brasilero Torrado Clásico",
-        "price": 350.00,
-        "weight": 500,
-        "img_url":"",
-        "stock": 45
-      },
-      {
-        "id": 15,
-        "name": "Brasilero Torrado Clásico",
-        "price": 600.00,
-        "weight": 1000,
-        "img_url":"",
-        "stock": 45
-      },
-      {
-        "id": 16,
-        "name": "Brasilero Suave",
-        "price": 200.00,
-        "weight": 250,
-        "img_url":"",
-        "stock": 45
-      },
-      {
-        "id": 17,
-        "name": "Brasilero Suave",
-        "price": 350.00,
-        "weight": 500,
-        "img_url":"",
-        "stock": 45
-      },
-      {
-        "id": 18,
-        "name": "Brasilero Suave",
-        "price": 600.00,
-        "weight": 1000,
-        "img_url":"",
-        "stock": 45
-      },
-      {
-        "id": 19,
-        "name": "Edición Especial Peru",
-        "price": 850.00,
-        "weight": 1000,
-        "img_url":"",
-        "stock": 45
-      },
-      {
-        "id": 20,
-        "name": "Edición Especial Tailandia",
-        "price": 900.00,
-        "weight": 1000,
-        "img_url":"",
-        "stock": 45
-      }
-    ]
-  }
+  "products": [
+    {
+      "id": 1,
+      "name": "Colombiano Intenso",
+      "price": 200,
+      "weight": 250,
+      "img_url": "../../img/cup.jpg",
+      "stock": 45
+    },
+    {
+      "id": 2,
+      "name": "Colombiano Intenso",
+      "price": 350,
+      "weight": 500,
+      "img_url": "",
+      "stock": 45
+    },
+    {
+      "id": 3,
+      "name": "Colombiano Intenso",
+      "price": 600,
+      "weight": 1000,
+      "img_url": "",
+      "stock": 45
+    },
+    {
+      "id": 4,
+      "name": "Colombiano Torrado Clásico",
+      "price": 200,
+      "weight": 250,
+      "img_url": "",
+      "stock": 45
+    },
+    {
+      "id": 5,
+      "name": "Colombiano Torrado Clásico",
+      "price": 350,
+      "weight": 500,
+      "img_url": "",
+      "stock": 45
+    },
+    {
+      "id": 6,
+      "name": "Colombiano Torrado Clásico",
+      "price": 600,
+      "weight": 1000,
+      "img_url": "",
+      "stock": 45
+    },
+    {
+      "id": 7,
+      "name": "Colombiano Suave",
+      "price": 200,
+      "weight": 250,
+      "img_url": "",
+      "stock": 45
+    },
+    {
+      "id": 8,
+      "name": "Colombiano Suave",
+      "price": 350,
+      "weight": 500,
+      "img_url": "",
+      "stock": 45
+    },
+    {
+      "id": 9,
+      "name": "Colombiano Suave",
+      "price": 600,
+      "weight": 1000,
+      "img_url": "",
+      "stock": 45
+    },
+    {
+      "id": 10,
+      "name": "Brasilero Intenso",
+      "price": 200,
+      "weight": 250,
+      "img_url": "",
+      "stock": 45
+    },
+    {
+      "id": 11,
+      "name": "Brasilero Intenso",
+      "price": 350,
+      "weight": 500,
+      "img_url": "",
+      "stock": 45
+    },
+    {
+      "id": 12,
+      "name": "Brasilero Intenso",
+      "price": 600,
+      "weight": 1000,
+      "img_url": "",
+      "stock": 45
+    },
+    {
+      "id": 13,
+      "name": "Brasilero Torrado Clásico",
+      "price": 200,
+      "weight": 250,
+      "img_url": "",
+      "stock": 45
+    },
+    {
+      "id": 14,
+      "name": "Brasilero Torrado Clásico",
+      "price": 350,
+      "weight": 500,
+      "img_url": "",
+      "stock": 45
+    },
+    {
+      "id": 15,
+      "name": "Brasilero Torrado Clásico",
+      "price": 600,
+      "weight": 1000,
+      "img_url": "",
+      "stock": 45
+    },
+    {
+      "id": 16,
+      "name": "Brasilero Suave",
+      "price": 200,
+      "weight": 250,
+      "img_url": "",
+      "stock": 45
+    },
+    {
+      "id": 17,
+      "name": "Brasilero Suave",
+      "price": 350,
+      "weight": 500,
+      "img_url": "",
+      "stock": 45
+    },
+    {
+      "id": 18,
+      "name": "Brasilero Suave",
+      "price": 600,
+      "weight": 1000,
+      "img_url": "",
+      "stock": 45
+    },
+    {
+      "id": 19,
+      "name": "Edición Especial Peru",
+      "price": 850,
+      "weight": 1000,
+      "img_url": "",
+      "stock": 45
+    },
+    {
+      "id": 20,
+      "name": "Edición Especial Tailandia",
+      "price": 900,
+      "weight": 1000,
+      "img_url": "",
+      "stock": 45
+    },
+    {
+      "id": 21
+    },
+    {
+      "id": 22
+    },
+    {
+      "id": 23
+    },
+    {
+      "id": 24
+    },
+    {
+      "id": 25
+    },
+    {
+      "id": 26
+    }
+  ],
+  "img": [
+    {
+      "id": 1,
+      "img_url": "https://img.freepik.com/foto-gratis/taza-espresso-humeante-sobre-fondo-gris-cerca_1220-6682.jpg?w=740&t=st=1649366249~exp=1649366849~hmac=bd3e17b88bfca111bf6498c607fbbe2924baa5f355a5a124edba8c77efd0358a"
+    },
+    {
+      "id": 2,
+      "img_url": "https://img.freepik.com/foto-gratis/vista-inferior-taza-platillo-negro-sobre-mesa-oscura_140725-129925.jpg?w=740&t=st=1649367094~exp=1649367694~hmac=0d2e476c775ac53466c1b81686bef62d06411e6ef425238964efdb9bb3e6d8d8"
+    },
+    {
+      "id": 3,
+      "img_url": "https://img.freepik.com/foto-gratis/taza-espresso-humeante-sobre-fondo-gris-cerca_1220-6682.jpg?w=740&t=st=1649366249~exp=1649366849~hmac=bd3e17b88bfca111bf6498c607fbbe2924baa5f355a5a124edba8c77efd0358a"
+    },
+    {
+      "id": 4,
+      "img_url": "https://img.freepik.com/foto-gratis/vista-inferior-taza-platillo-negro-sobre-mesa-oscura_140725-129925.jpg?w=740&t=st=1649367094~exp=1649367694~hmac=0d2e476c775ac53466c1b81686bef62d06411e6ef425238964efdb9bb3e6d8d8"
+    },
+    {
+      "id": 5,
+      "img_url": "https://img.freepik.com/foto-gratis/taza-espresso-humeante-sobre-fondo-gris-cerca_1220-6682.jpg?w=740&t=st=1649366249~exp=1649366849~hmac=bd3e17b88bfca111bf6498c607fbbe2924baa5f355a5a124edba8c77efd0358a"
+    },
+    {
+      "id": 6,
+      "img_url": "https://img.freepik.com/foto-gratis/vista-inferior-taza-platillo-negro-sobre-mesa-oscura_140725-129925.jpg?w=740&t=st=1649367094~exp=1649367694~hmac=0d2e476c775ac53466c1b81686bef62d06411e6ef425238964efdb9bb3e6d8d8"
+    }
+  ]
+}
